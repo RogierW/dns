@@ -108,7 +108,6 @@ class Dns
             $nameserverPart,
             $this->domain,
             $type,
-            '+multiline',
             '+noall',
             '+answer',
         ]);
